@@ -13,7 +13,7 @@ public class InputFromUser {
             try
             {
                 notint = false;
-                System.out.println("Please select one of the option mentioned above");
+                System.out.println("Please select one of the option mentioned above-");
                 System.out.print("Option : ");
                 String s = input.next();
                 checkint = Integer.parseInt(s);
@@ -23,6 +23,8 @@ public class InputFromUser {
             {
                 notint   = true;
                 checkint = 0;
+
+                System.out.println("\nAlphabet, Special Characters, Words are not allowed.\n");
             }
         }
         return checkint;
