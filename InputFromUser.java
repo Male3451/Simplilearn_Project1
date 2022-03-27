@@ -24,7 +24,7 @@ public class InputFromUser {
                 notint   = true;
                 checkint = 0;
 
-                System.out.println("\nAlphabet, Special Characters, Words are not allowed.\n");
+                System.out.println("\n->Alphabet, Special Characters, Words are not allowed.\n");
             }
         }
         return checkint;
